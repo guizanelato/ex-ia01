@@ -1,0 +1,18 @@
+div#form {
+	border: 1px solid black;
+	margin: 0em;
+	padding: 1em;
+
+}
+
+div#areaGrafo{
+	border: 1px solid gray;
+	margin: 2em;
+	padding: 1em;
+	
+}
+
+canvas#grafo{
+	margin: -3em;
+
+}

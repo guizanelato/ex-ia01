@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Celso Gallão</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<div id="form">
+		<h1>Inteligência Artificial - Programa 1</h1>
+		
+		  <label for="colunas">Número de Colunas</label>
+		  <select id="colunas" name="colunas">
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		  </select>
+		  <button name="Gerar Grafo" onclick="desenhaGrafo()"value="Gerar Grafo">
+			  Gerar Grafo</button>
+		  <button name="Distancia Manhattan" onclick="distanciaManhattan()"value="Distancia Manhattan">
+			  Dist-Manhattan</button>
+		  <button name="Menor Distancia" onclick="menorDistancia()"value="Menor Distancia">
+			  Menor-Distancia</button>
+		  <button name="Distancia Manhattan" onclick="menorDistancia()"value="Distancia Manhattan">
+			  Exibir Adjacencias</button>
+		  <br>
+		  <table>
+			<tr>
+				<td>Origem</td>
+				<td><select id="origem" name="origem"></select></td>
+			</tr>
+			<tr>
+				<td>Destino</td>
+				<td><select id="destino" name="destino"></select></td>
+			</tr>
+			<tr>
+				<td>Manhattan</td>
+				<td id="manhattan"></td>
+			</tr>
+			<tr>
+				<td>Menor Distancia</td>
+				<td id="mdistancia"></td>
+			</tr>
+			<tr>
+				<td>Algoritmo</td>
+				<td id="talgoritmo"></td>
+			</tr>
+		  
+		  </table>
+		  
+	<canvas id="grafo" ></canvas>
+	</div>
+	
+	
+	<script type="text/javascript" src="scripts/main.js"></script>
+	
+	
+ </body>
+</html>
